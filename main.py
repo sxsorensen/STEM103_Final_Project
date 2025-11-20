@@ -1,18 +1,43 @@
-#MORTGAGE CALCULATOR
+#LOAN CALCULATOR
 
-#Import functions and dictionary
+#ALGORITHM
+#Import necessary functions and libraries
 #Welcome the user to system
-#Ask the user for terms: principal, interest rate, years
-#Calculate APR %, monthly mortgage payment (P&I)
-#Create payment schedule
+#Ask user if they have a total principal or monthly payment amount to input
+#Ask the user for terms of loan: principal/payment, interest rate, years
+#Calculate APR %, monthly mortgage payment (P&I) from princiapl or principal amount from a payment
+#Create payment schedule with monthly balances
+#Create comparison graph and output to screen
+#Ask user if they wish to export the information
+#Ask user if they wish to use different parameters or exit
 
 
-from mortgage import loan
+#IMPORT LIBRARIES AND FUNCTIONS
+import datetime as dt
+import matplotlib.stackplot as splt
 
-#REQUEST DATA FROM USER
-principal = float(input("How much is the princiapl of your loan? "))
-irate = float(input("What is the interest rate? "))
-term = integar(input("What is the term of the loan in years? "))
-table = input("Would you like a schedule of payments? Y/N "
+from functions import *
 
-loan = Loan(principal, irate, term)
+#REQUEST INPUTS
+#ask user prin or pmt, request inputs
+print("Welcome to the loan calculator. Instructions go here.")
+
+iscontinued = True
+while iscontinued == True:
+    calctype = input("Would you like to start with the principal[1] or payment[2] amount? ")
+    #if calctype
+
+
+    #prin = principalv()
+    #pmt = paymentsv()
+    #irate = interestv()
+    term = termv()
+    
+    #amortization(prinv)
+    #amortization(pmtv)
+
+#CALCULATIONS
+
+
+
+#OUTPUT
