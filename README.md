@@ -5,4 +5,4 @@ Final project for a STEM 103 in Fall 2025 taught by Christine Sutton.
 My name is Stacy Sorensen and I'm a student learning Python at Everett Community College.
 
 # ABOUT THE PROGRAM
-Details go here. 
+Program created to calculate a payment or prinicple amount for a loan. 
